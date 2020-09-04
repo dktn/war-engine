@@ -57,8 +57,10 @@ default-extensions: &default-extensions
 dependencies:
 - base >= 4.7 && < 5
 - universum
+- text
 - pretty
 - lens
+- megaparsec
 
 library:
   source-dirs: src
@@ -84,3 +86,7 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - war-engine
+    - hspec
+    - hspec-discover
+    - QuickCheck
+    - quickcheck-instances

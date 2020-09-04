@@ -122,6 +122,7 @@ example =
     , _setup    = Nothing
     , _arrival  = Just "3-AB"
     }
-  -- Inf-II-id:4/8/2-a:2-d:2(v)-m:3-s:1-arr:(3-AB)
 
 makeFieldsNoPrefix ''UnitSize
+makeFieldsNoPrefix ''UnitId
+makeFieldsNoPrefix ''Unit

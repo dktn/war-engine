@@ -1,8 +1,8 @@
 module Main where
 
-import Universum
+import           Universum
 
-import Engine
+import           Engine    (run)
 
 
 main :: IO ()
